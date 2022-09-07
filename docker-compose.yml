@@ -88,7 +88,6 @@ services:
     networks:
       reardnsdist_dnsproxy:
         ipv4_address: 10.16.5.3
-      middle:
     logging:
       driver: "syslog"
       options:
